@@ -26,10 +26,9 @@ The data is first loaded and preprocessed, such that unwanted features are remov
 ### 3.2 Model Pipeline
 A feedforward neural network is constructed that is catered for regression problem. The structure of the model is fairly simple. Figure below shows the structure of the model.
 
-![image](https://user-images.githubusercontent.com/103733709/164046075-d8302bba-1349-48e5-a6b8-55a9c66ddd24.png)
+![image](https://user-images.githubusercontent.com/103733709/164048086-cc6d0301-9abe-44d4-9399-e97942e407ad.png)
 
 The model is trained with a batch size of 64 and for 100 epochs.The training MAE of 571.3531 and validation MAE of 347.9800. The two figures below show the graph of the training process, indicating the convergence of model training.
-![image](https://user-images.githubusercontent.com/103733709/164046759-5f1e75ea-43d2-48dd-b730-5b5d61ba9d8e.png)
 
 ![image](https://user-images.githubusercontent.com/103733709/164047732-0c85fe07-61b2-4947-8362-a0f9a327b829.png)
 
